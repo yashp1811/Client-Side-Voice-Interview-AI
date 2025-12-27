@@ -1,4 +1,4 @@
-```md
+
 # 🎙️ Client-Side Voice Interview AI (Offline, <30MB)
 
 A fully **client-side AI demo** that performs **real-time voice summarization**, **pause detection**, and **contextual filler phrase generation** directly in the browser — **no server, no API calls, no cloud dependency**.
@@ -33,8 +33,6 @@ Develop a **<30MB client-side AI model** that enhances automated voice interview
 
 ## 🧩 Architecture Overview
 
-```
-
 Microphone
 ↓
 Speech Recognition (Web Speech API)
@@ -49,7 +47,6 @@ UI Update + TTS Filler Playback
 
 ```
 
----
 
 ## 📦 Model Details
 
@@ -65,7 +62,7 @@ UI Update + TTS Filler Playback
 
 ## 📁 Project Structure
 
-```
+
 
 voice-ai-demo/
 ├── index.html                 # UI + Speech Recognition + TTS
@@ -73,7 +70,7 @@ voice-ai-demo/
 ├── minilm-l6-v2-quantized.onnx
 └── README.md
 
-````
+
 
 ---
 
@@ -83,7 +80,7 @@ voice-ai-demo/
 ```bash
 git clone https://github.com/your-username/voice-ai-demo.git
 cd voice-ai-demo
-````
+
 
 ### 2️⃣ Start a local server
 
@@ -91,7 +88,7 @@ cd voice-ai-demo
 
 ```bash
 python -m http.server
-```
+
 
 ### 3️⃣ Open in browser
 
