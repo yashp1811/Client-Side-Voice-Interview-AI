@@ -33,6 +33,8 @@ Develop a **<30MB client-side AI model** that enhances automated voice interview
 
 ## 🧩 Architecture Overview
 
+
+
 Microphone
 ↓
 Speech Recognition (Web Speech API)
@@ -45,8 +47,9 @@ Intent-Based Summarization
 ↓
 UI Update + TTS Filler Playback
 
-```
 
+
+---
 
 ## 📦 Model Details
 
@@ -70,7 +73,7 @@ voice-ai-demo/
 ├── minilm-l6-v2-quantized.onnx
 └── README.md
 
-
+````
 
 ---
 
@@ -80,7 +83,7 @@ voice-ai-demo/
 ```bash
 git clone https://github.com/your-username/voice-ai-demo.git
 cd voice-ai-demo
-
+````
 
 ### 2️⃣ Start a local server
 
@@ -88,7 +91,7 @@ cd voice-ai-demo
 
 ```bash
 python -m http.server
-
+```
 
 ### 3️⃣ Open in browser
 
@@ -194,6 +197,5 @@ This mirrors **production systems** used in:
 **Yash Patil**
 Client-Side AI • Web ML • Systems Engineering
 
+---
 
-```
-```
