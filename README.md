@@ -53,14 +53,6 @@ UI Update + TTS Filler Playback
 
 ## 📦 Model Details
 
-| Item | Value |
-|---|---|
-| Model | MiniLM-L6 (Quantized) |
-| Format | ONNX |
-| Size | ~22 MB |
-| Runtime | onnxruntime-web (WASM) |
-| Inference Latency | ~5–20 ms (device dependent) |
-
 ---
 
 ## 📁 Project Structure
