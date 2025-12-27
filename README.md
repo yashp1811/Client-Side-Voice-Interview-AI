@@ -52,24 +52,21 @@ UI Update + TTS Filler Playback
 ---
 
 ## 📦 Model Details
+| Item | Value |
+|---|---|
+| Model | MiniLM-L6 (Quantized) |
+| Format | ONNX |
+| Size | ~22 MB |
+| Runtime | onnxruntime-web (WASM) |
+| Inference Latency | ~5–20 ms (device dependent) |
 
 ---
 
-## 📁 Project Structure
 
-
-
-voice-ai-demo/
-├── index.html                 # UI + Speech Recognition + TTS
-├── worker.js                  # ONNX inference + summarization
-├── minilm-l6-v2-quantized.onnx
-└── README.md
-
+## 🛠️ How to Run
 ````
 
 ---
-
-## 🛠️ How to Run
 
 ### 1️⃣ Clone the repository
 ```bash
